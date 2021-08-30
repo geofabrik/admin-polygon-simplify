@@ -1,6 +1,10 @@
 Simplification of OSM Admin Boundaries
 ======================================
 
+This utility can simplify the members of administrative boundary relations,
+and ensure that all these way members carry an admin_level tag equivalent to 
+the smalles admin_level tag of all relations containing the way.
+
 Dependencies
 ------------
 
