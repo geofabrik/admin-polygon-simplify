@@ -20,3 +20,14 @@ Unit Tests
 ----------
 
 Build the project as described above, afterwards run `make test`.
+
+
+Authors
+-------
+
+This software was written for Geofabrik by Michael Reichert.
+
+License
+-------
+
+This software is made available under the GNU General Public License, v3 or later.
