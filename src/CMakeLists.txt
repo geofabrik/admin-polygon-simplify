@@ -15,3 +15,7 @@ install(TARGETS admin_polygon_simplify DESTINATION bin)
 add_executable(osm_admin_level_rels2ways osm_admin_level_rels2ways.cpp way_admin_level_index.cpp admin_rel_handlers.cpp)
 target_link_libraries(osm_admin_level_rels2ways ${OSMIUM_LIBRARIES} ${Boost_LIBRARIES})
 install(TARGETS osm_admin_level_rels2ways DESTINATION bin)
+
+add_executable(osm_admin_level_relways_export osm_admin_level_relways_export.cpp way_admin_level_index.cpp admin_rel_handlers.cpp admin_shp_handler.cpp)
+target_link_libraries(osm_admin_level_relways_export ${OSMIUM_LIBRARIES} ${Boost_LIBRARIES} ${GDAL_LIBRARIES})
+install(TARGETS osm_admin_level_relways_export DESTINATION bin)
