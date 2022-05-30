@@ -8,9 +8,16 @@ the smalles admin_level tag of all relations containing the way.
 Dependencies
 ------------
 
-* libosmium-dev and its dependencies except GDAL and GEOS
-* cmake
+* Osmium Libary and its dependencies except GEOS
+* GDAL library
+* Cmake
 * C++ compiler with C++11 support
+
+Debian:
+
+```sh
+apt install libosmium-dev libgdal-dev cmake build-essentials
+```
 
 Building
 --------
